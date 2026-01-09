@@ -13,6 +13,10 @@ inquirer
     var qr_svg = qr.image(url);
     qr_svg.pipe(fs.createWriteStream("qr_code.png"));
     console.log("QR Code generated and saved as qr_code.png");
+    fs.writeFile("URL.txt", url, (err) => {
+      if (err) throw err;
+      console.log("The URL has been saved to URL.txt");
+    });
   })
   .catch((error) => {
     if (error.isTtyError) {
