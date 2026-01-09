@@ -1,0 +1,24 @@
+{
+  "name": "199.-project--qr-code-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaithra-S-Nayak/QR-Code-Generator.git"
+  },
+  "author": "Chaithra S Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaithra-S-Nayak/QR-Code-Generator/issues"
+  },
+  "homepage": "https://github.com/Chaithra-S-Nayak/QR-Code-Generator#readme",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^12.11.1",
+    "qr-image": "^3.2.0"
+  }
+}
